@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Password Strength Detector</h1>
+
+    <div class="loader-area">
+
+    <div onmouseover="test()" onmouseleave="testEnd()" class="loader">
+        <div id="len">asdf</div>
+        <div id="strength"  class="strength">
+
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="input">
+    <input id="pass" type="text" oninput="check()" name="pass" placeholder="Enter Your Password...">
+        <!-- <ul>
+            <li id="upper">At least 1 uppercase letter</li>
+            <li id="number">At least 1 number or 1 character</li>
+            <li id="special">At least 1 special character</li>
+            <li id="length">Increase length</li>
+        </ul> -->
+
+        
+        <div onclick="randompass()" class="gen">Generate Password</div>
+
+        <div  id="password-new"></div>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>

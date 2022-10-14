@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(240, 128, 128, 0.744);
+}
+
+.title{
+    /* Heading */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    /* color: #fff; */
+    text-align: center;
+    /* margin: 1rem 0;S */
+    background-color: rgb(212, 233, 251);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.user-details{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+
+    background-color: rgb(212, 233, 251);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+}
+
+.input-box{
+    max-width: 300px;
+}
+
+input{
+    /* Input */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+span{
+    display: inline-block;
+    /* Input */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: red;
+    background-color: rgb(41, 36, 36);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    /* margin: 0.5rem 0; */
+    /* width: 40%; */
+    /* padding: 0.5rem 1rem; */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+
+.submit{
+    /* Button */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 5rem;
+    margin: 0.5rem 0;
+    /* width: 100%; */
+    
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    transition: all 150ms ease-in;
+}
+
+.submit:hover{
+   box-shadow: 0 0 30px rgb(0, 0, 0);
+    transform: scale(1);
+    background-color: white;
+    color: black;
+   cursor: pointer;
+}
+
+.submit:active{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transform: scale(0.9);
+}
+
+p{
+    /* Input */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    /* margin: 0.5rem 0; */
+    /* width: 40%; */
+    /* padding: 0.5rem 1rem; */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#limit{
+   display: none;
+    color: red;
+}
+
+#tot_cred{
+    color: lightgreen;
+    display: none;
+}
